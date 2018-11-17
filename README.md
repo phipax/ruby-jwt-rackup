@@ -19,13 +19,16 @@ this attempt.
 Steps to run the from the terminal
 
 > Projects folder> git clone git@github.com:phipax/ruby-jwt-rackup.git
+
 > Projects folder> cd ruby-jwt-rackup
+
 > Projects folder> bundle install
+
 > Projects folder> JWT_SECRET='yoursecret' JWT_ISSUER='your-issuer-info' rackup
 
 > open localhost:9292 for the landing page.
 
-#Login using one of the below user ids & password
+Login using one of the below user ids & password
   > tomd: 'abc',
   > mark: 'therockshow',
   > trav: 'whatsmyageagain'
